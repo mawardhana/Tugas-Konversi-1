@@ -1,0 +1,33 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package konversisuhu;
+
+/**
+ *
+ * @author Lenovo
+ */
+public class Konversisuhu {
+    double Celcius(){
+        return(main.suhuAwal);
+    }
+    double rumusFahrenheit(){
+        return(main.suhuAwal*1.8+32);
+    }
+    double rumusReamur(){
+        return(main.suhuAwal*0.8);
+    }
+    double rumusKelvin(){
+        return(main.suhuAwal+273.15);
+    }
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+    
+}
+  
